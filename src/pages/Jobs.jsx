@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Navbar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import JobCard from "../components/JobCard";
 import Footer from "../components/Footer";
 

@@ -6,7 +6,7 @@ const cors = require("cors");
 const connectDB = require("./db");
 const authRoutes = require("./routes/authRoutes");
 const jobRoutes = require("./routes/jobRoutes");
-const profileRoutes = require("./routes/profileRoutes");
+const profileRoutes = require("./routes/ProfileRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
 require("dotenv").config();
 

@@ -160,7 +160,7 @@ function JobDetails() {
     const fetchJob = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:8709/api/jobs/${id}`
+          `http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/${id}`
         );
         setJob(res.data);
       } catch (error) {

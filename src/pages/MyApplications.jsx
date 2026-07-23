@@ -25,7 +25,7 @@ function MyApplications() {
       );
 
       const res = await axios.get(
-        `http://localhost:8709/api/applications/user/${user._id}`
+        `http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/user/${user._id}`
       );
 
       setApplications(res.data);

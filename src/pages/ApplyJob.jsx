@@ -289,7 +289,7 @@
 
 //     try {
 //       await axios.post(
-//         "http://localhost:8709/api/applications/apply",
+//         "http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/apply",
 //         {
 //           userId: user._id,
 //           jobId: id,
@@ -533,7 +533,7 @@ function ApplyJob() {
     const fetchJob = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:8709/api/jobs/${id}`
+          `http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/${id}`
         );
         setJob(res.data);
       } catch (error) {
@@ -603,7 +603,7 @@ function ApplyJob() {
 
     try {
       await axios.post(
-        "http://localhost:8709/api/applications/apply",
+        "http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/apply",
         {
           userId: user._id,
           jobId: id,

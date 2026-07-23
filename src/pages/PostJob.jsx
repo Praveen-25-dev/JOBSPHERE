@@ -32,7 +32,7 @@ function PostJob() {
 
   try {
     await axios.post(
-      "http://localhost:8709/api/jobs/add",
+      "http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/add",
       job
     );
 

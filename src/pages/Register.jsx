@@ -22,7 +22,7 @@ return;
 
 
   const res = await axios.post(
-    "http://localhost:8709/api/auth/register",
+    "http://localhost:https://jobsphere-lnmi.onrender.com/api/auth/register",
     {
       fullname: name,
       email,

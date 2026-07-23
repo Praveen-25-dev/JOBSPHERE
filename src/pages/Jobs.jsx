@@ -16,7 +16,7 @@ function Jobs() {
     const fetchJobs = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:8709/api/jobs"
+          "http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs"
         );
 
         setJobs(res.data);

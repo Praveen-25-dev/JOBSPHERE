@@ -25,7 +25,7 @@ const [stats,setStats] = useState({
 const fetchJobs = async () => {
   try {
     const res = await axios.get(
-      "http://localhost:8709/api/jobs"
+      "http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs"
     );
 
     setJobs(res.data);
@@ -38,7 +38,7 @@ const fetchJobs = async () => {
 const fetchStats = async () => {
   try {
     const res = await axios.get(
-      "http://localhost:8709/api/jobs/stats"
+      "http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/stats"
     );
 
     setStats(res.data);
@@ -50,7 +50,7 @@ const fetchStats = async () => {
 const deleteJob = async (id) => {
   try {
     await axios.delete(
-      `http://localhost:8709/api/jobs/${id}`
+      `http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/${id}`
     );
 
     fetchJobs();

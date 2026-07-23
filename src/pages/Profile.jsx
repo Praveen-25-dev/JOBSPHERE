@@ -30,7 +30,7 @@ const fetchProfile = async () => {
     console.log("TOKEN:", token);
 
     const res = await axios.get(
-      "http://localhost:8709/api/profile",
+      "http://localhost:https://jobsphere-lnmi.onrender.com/api/profile",
       {
         headers: {
           authorization: token,
@@ -89,7 +89,7 @@ const fetchProfile = async () => {
     const token = localStorage.getItem("token");
 
     await axios.post(
-      "http://localhost:8709/api/profile",
+      "http://localhost:https://jobsphere-lnmi.onrender.com/api/profile",
       profile,
       {
         headers: {

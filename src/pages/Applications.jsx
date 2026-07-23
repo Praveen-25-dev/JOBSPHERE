@@ -34,7 +34,7 @@ function Application() {
 //     const user = JSON.parse(localStorage.getItem("user"));
 
 //     await axios.post(
-//       "http://localhost:8709/api/applications/apply",
+//       "http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/apply",
 //       {
 //         userId: user._id,
 //         jobId,
@@ -62,7 +62,7 @@ const handleApply = async () => {
     const user = JSON.parse(localStorage.getItem("user"));
 
     await axios.post(
-      "http://localhost:8709/api/applications/apply",
+      "http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/apply",
       {
         userId: user._id,
         jobId: jobid,

@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import notifications from "../data/notifications";
+import notifications from "../data/Notifications";
 
 function Notifications() {
     const notifications =

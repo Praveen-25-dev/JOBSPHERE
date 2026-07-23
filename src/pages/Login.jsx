@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import { useNavigate } from "react-router-dom";
 import { FaUser, FaLock } from "react-icons/fa";
 import { useState } from "react";

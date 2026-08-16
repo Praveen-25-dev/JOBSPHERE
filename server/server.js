@@ -27,7 +27,8 @@ app.get("/", (req, res) => {
   res.send("Backend Running Successfully");
 });
 
-const PORT = process.env.PORT || https://jobsphere-lnmi.onrender.com;
+// const PORT = process.env.PORT || https://jobsphere-lnmi.onrender.com;
+const PORT = process.env.PORT || 8709;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

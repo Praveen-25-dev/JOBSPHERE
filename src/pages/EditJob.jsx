@@ -24,7 +24,8 @@ function EditJob() {
   const fetchJob = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/${id}`
+        // `http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/${id}`
+        `https://jobsphere-lnmi.onrender.com/api/auth/jobs/${id}`
       );
 
       setJob(res.data);

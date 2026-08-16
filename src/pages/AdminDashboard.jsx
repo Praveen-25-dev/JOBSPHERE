@@ -38,7 +38,8 @@ const fetchJobs = async () => {
 const fetchStats = async () => {
   try {
     const res = await axios.get(
-      "http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/stats"
+      // "http://localhost:https://jobsphere-lnmi.onrender.com/api/jobs/stats"
+      "https://jobsphere-lnmi.onrender.com/api/auth/jobs/stats"
     );
 
     setStats(res.data);

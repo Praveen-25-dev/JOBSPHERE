@@ -62,7 +62,8 @@ const handleApply = async () => {
     const user = JSON.parse(localStorage.getItem("user"));
 
     await axios.post(
-      "http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/apply",
+      // "http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/apply",
+      "https://jobsphere-lnmi.onrender.com/api/auth/applications/apply",
       {
         userId: user._id,
         jobId: jobid,

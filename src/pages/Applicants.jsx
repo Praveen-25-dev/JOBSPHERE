@@ -48,7 +48,8 @@ function Applicants() {
 const fetchApplicants = async () => {
   try {
     const res = await axios.get(
-      `http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/job/${jobId}`
+      // `http://localhost:https://jobsphere-lnmi.onrender.com/api/applications/job/${jobId}`
+      `https://jobsphere-lnmi.onrender.com/api/auth/applications/job/${jobId}`
     );
 
     setApplicants(res.data);
